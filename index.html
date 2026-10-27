@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pour Céleste Divine ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(ellipse at top, #492033, #160d12 70%);
+    color: #fff6ec;
+    font-family: Georgia, "Times New Roman", serif;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    max-width: 760px;
+    margin: auto;
+    padding: 35px 20px 55px;
+    text-align: center;
+    position: relative;
+}
+
+.topline {
+    color: #e8c982;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 15px 0 28px;
+}
+
+.heart {
+    font-size: 45px;
+    color: #e9a6b9;
+    animation: pulse 1.8s infinite;
+}
+
+h1 {
+    color: #e8c982;
+    font-size: clamp(38px, 9vw, 65px);
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 20px 0;
+    text-shadow: 0 0 25px #e8c98233;
+}
+
+.subtitle {
+    color: #f5cbd7;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+.ornament {
+    color: #e8c982;
+    margin: 30px 0;
+    letter-spacing: 8px;
+    font-size: 22px;
+}
+
+button {
+    background: linear-gradient(135deg, #e8c982, #b98648);
+    color: #26141b;
+    border: 1px solid #e8c982;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 30px #0004;
+    transition: transform .3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#letter {
+    display: none;
+    margin: 35px auto 0;
+    padding: 30px 25px;
+    border: 1px solid #e8c98277;
+    border-radius: 8px;
+    background: #ffffff08;
+    box-shadow: 0 18px 65px #0003;
+    text-align: left;
+}
+
+#letter.open {
+    display: block;
+    animation: appear 1s ease;
+}
+
+h2 {
+    color: #e8c982;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+#letter p {
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.signature {
+    color: #f2bdcc;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.footer {
+    color: #c5a8b2;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 45px;
+}
+
+.floating-heart {
+    position: fixed;
+    bottom: -30px;
+    color: #e9a6b9;
+    pointer-events: none;
+    animation: floatUp 7s linear forwards;
+    z-index: 10;
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.15);
+        text-shadow: 0 0 25px #e9a6b9;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0);
+        opacity: 0;
+    }
+    15% { opacity: .8; }
+    100% {
+        transform: translateY(-110vh) rotate(25deg);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    main { padding: 25px 16px 40px; }
+    .topline { font-size: 9px; letter-spacing: 2px; }
+    #letter { padding: 24px 18px; }
+    #letter p { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        scroll-behavior: auto !important;
+    }
+}
+</style>
+</head>
+
+<body>
+<main>
+
+    <div class="topline">
+        Une journée spéciale · Un amour précieux
+    </div>
+
+    <div class="heart">♡</div>
+
+    <h1>
+        Joyeux anniversaire,<br>
+        Céleste Divine
+    </h1>
+
+    <div class="subtitle">
+        À ma fiancée, ma paix et mon plus beau projet d’avenir.
+    </div>
+
+    <div class="ornament">✦ ❦ ✦</div>
+
+    <button id="openBtn" onclick="ouvrirLettre()">
+        Ouvrir ta lettre d’amour ♡
+    </button>
+
+    <section id="letter">
+        <h2>Ma Céleste Divine,</h2>
+
+        <p>
+            Ma Céleste Divine,
+
+En ce jour béni qui est le tien, je veux te dire merci. Merci d'exister, merci d'être la femme qui illumine mes jours et apaise mes nuits.
+
+Tu n'es pas seulement ma fiancée, tu es ma paix, ma joie, mon plus beau projet d'avenir. Chaque année à tes côtés est un cadeau de Dieu.
+
+Joyeux anniversaire, mon amour. Que cette nouvelle année t'apporte tout ce que ton cœur désire. Je t'aime plus que les mots ne peuvent le dire.
+        </p>
+
+        <p>
+            Ma Céleste Divine, en ce jour béni qui est le tien, je veux te dire merci, merci d'exister, merci d'être cette femme exceptionnelle qui illumine mes jours et apaise mes nuits par ta seule présence ; tu n'es pas seulement ma fiancée, tu es ma paix intérieure, ma joie quotidienne, ma force dans la faiblesse et mon plus beau projet d'avenir, celle avec qui je veux tout construire et vieillir. Chaque année passée à tes côtés est un véritable cadeau de Dieu, une grâce que je ne cesserai jamais de chérir, car ton amour a donné un nouveau sens à ma vie et ton sourire est devenu la raison de mon bonheur. Joyeux anniversaire, mon amour, ma Reine, que cette nouvelle année t'apporte tout ce que ton cœur désire, la santé, le succès, et encore plus d'amour, et sache que je t'aime plus que les mots ne pourront jamais l'exprimer.
+        </p>
+
+        <div class="ornament">♡ ✦ ♡</div>
+
+        <div class="signature">
+            Pour toi, aujourd’hui et pour tous nos lendemains.<br>
+            Je t’aime, ma Reine. ❤️
+        </div>
+    </section>
+
+    <div class="footer">
+        FAIT AVEC AMOUR · POUR CÉLESTE DIVINE
+    </div>
+
+</main>
+
+<script>
+function ouvrirLettre() {
+    const lettre = document.getElementById("letter");
+    const bouton = document.getElementById("openBtn");
+
+    lettre.classList.toggle("open");
+
+    if (lettre.classList.contains("open")) {
+        bouton.textContent = "Relire ma lettre ♡";
+        lettre.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+        creerCoeurs();
+    } else {
+        bouton.textContent = "Ouvrir ta lettre d’amour ♡";
+    }
+}
+
+function creerCoeurs() {
+    for (let i = 0; i < 15; i++) {
+        const coeur = document.createElement("span");
+
+        coeur.className = "floating-heart";
+        coeur.textContent = Math.random() > 0.5 ? "♡" : "♥";
+        coeur.style.left = Math.random() * 100 + "vw";
+        coeur.style.animationDelay = Math.random() * 2 + "s";
+        coeur.style.fontSize = (14 + Math.random() * 20) + "px";
+
+        document.body.appendChild(coeur);
+
+        setTimeout(() => {
+            coeur.remove();
+        }, 9000);
+    }
+}
+</script>
+
+</body>
+</html>
